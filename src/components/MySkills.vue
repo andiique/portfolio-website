@@ -11,63 +11,63 @@
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/python.png">
+                <img src="../assets/icons/python.png">
             </div>
             <p>Python</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/java.png">
+                <img src="../assets/icons/java.png">
             </div>
             <p>Java</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/c-.png">
+                <img src="../assets/icons/c-.png">
             </div>
             <p>C/C++</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/android.png">
+                <img src="../assets/icons/android.png">
             </div>
             <p>Android</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/unity.png">
+                <img src="../assets/icons/unity.png">
             </div>
             <p>Unity</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/github.png">
+                <img src="../assets/icons/github.png">
             </div>
             <p style="margin-bottom: 0;">Github</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img src="../assets/visual-studio.png">
+                <img src="../assets/icons/visual-studio.png">
             </div>
             <p style="margin-bottom: 0;">VS Code</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img style="width: 70%; margin-top: 10%;" src="../assets/java-script.png">
+                <img style="width: 70%; margin-top: 10%;" src="../assets/icons/java-script.png">
             </div>
             <p style="margin-bottom: 0;">JavaScript</p>
         </div>
         <div class="skill">
             <div class="back-card"></div>
             <div class="card">
-                <img style="width: 100%; margin-top: 10%;" src="../assets/vue.jpg">
+                <img style="width: 70%; margin-top: 10%;" src="../assets/icons/vue2.png">
             </div>
             <p style="margin-bottom: 0;">Vue.js</p>
         </div>

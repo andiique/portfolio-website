@@ -1,6 +1,6 @@
 <template>
 	<div class="project-container" style="margin-top: 5%;">
-		<img class="img-left" src="../assets/image1.jpg">
+		<img class="img-left" src="../assets/brain.jpg">
 		<div class="text-container text-right">
 			<h3 class="title">
 				Alzheimer's Game
@@ -24,19 +24,20 @@
 				developed using Android Studio.
 			</p>
 		</div>
-		<img class="img-right" src="../assets/image2.jpg">
+		<img class="img-right" src="../assets/chat-app.png">
 	</div>
 
 	<div class="project-container" style="margin-top: 2%;">
-		<img class="img-left" src="../assets/image4.png">
+		<img class="img-left" src="../assets/aco.jpeg">
 		<div class="text-container text-right">
 			<h3 class="title">
-				Alzheimer's Game
-				<p class="subtitle">February-April/2023</p>
+				Ant Colony Optimization
+				<p class="subtitle">March/2023</p>
 			</h3>
 			<p class="text">
-				Card flip memory game designed to aid those suffering of Alzheimer's Disease
-				by helping slow down the rapidly decreasing cognitive abilities. 
+				Simulation of the natural behaviour of wild ants within the colony,
+				which presents the ants' journey to wild food sources and back to 
+				the nest, with a focus on their smart, yet overlooked approach on the task.
 			</p>
 		</div>
 	</div>
@@ -44,15 +45,15 @@
 	<div class="project-container" style="margin-top: 2%; justify-content: left;">
 		<div class="text-container text-left">
 			<h3 class="title">
-				Alzheimer's Game
+				Role-Playing Game (RPG)
 				<p class="subtitle">February-April/2023</p>
 			</h3>
 			<p class="text" style="margin-right: 0px;">
-				Card flip memory game designed to aid those suffering of Alzheimer's Disease
-				by helping slow down the rapidly decreasing cognitive abilities. 
+				RPG prototype, set in an open-world-like map. Implemented systems such as
+				quest system, quest log, leveling system and AI-driven enemies.
 			</p>
 		</div>
-		<img class="img-right" src="../assets/image3.png">
+		<img class="img-right" src="../assets/rpg.png">
 	</div>
 	
 </template>
@@ -81,7 +82,7 @@ img {
   background: rgba(117,81,125,0.1);
   margin-left: 25px;
   box-shadow: 1px 4px 25px rgba(117,81,125,0.15);
-  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  max-width: 17%; /* Ensure the image doesn't exceed its container's width */
   height: auto;
 }
 
