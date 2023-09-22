@@ -82,7 +82,7 @@ img {
   background: rgba(117,81,125,0.1);
   margin-left: 25px;
   box-shadow: 1px 4px 25px rgba(117,81,125,0.15);
-  max-width: 17%; /* Ensure the image doesn't exceed its container's width */
+  max-width: 16vw; /* Ensure the image doesn't exceed its container's width */
   height: auto;
 }
 
@@ -113,7 +113,7 @@ img {
 
 .text-container {
   position: relative;
-  width: 50%;
+  width: 48vw;
   text-align: justify;
   vertical-align: middle;
   box-sizing: border-box;

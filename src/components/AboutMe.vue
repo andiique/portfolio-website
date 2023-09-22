@@ -52,7 +52,7 @@ export default {
   }
   .about-me-container {
     width: 80%;
-    max-width: 700px;
+    max-width: 29vw;
     margin: 0 auto;
     padding: 20px;
     border-radius: 15px;
@@ -63,8 +63,8 @@ export default {
   }
 
   .profile-container {
-    width: 250px; /* Adjust the width to your desired size */
-    height: 250px; /* Set the same height as the width for a square shape */
+    width: 10vw; /* Adjust the width to your desired size */
+    height: 19vh; /* Set the same height as the width for a square shape */
     margin: 0 auto;
     background-color: #fff; /* Container background color */
     border: 2px solid #333; /* Border style */

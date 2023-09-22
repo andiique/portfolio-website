@@ -2,9 +2,6 @@
 
     <div class="wrapper">
         <header>
-            <!-- <img src="../assets/layers/sky.png" class="background" style="transform: translateZ(-20px) scale(3);">
-            <img src="../assets/layers/rocks_1.png" class="background" style="transform: translateZ(-15px) scale(2.5);">
-            <img src="../assets/layers/rocks_2.png" class="background" style="transform: translateZ(-10px) scale(2);"> -->
             <img src="../assets/layers/sky.png" class="background" style="transform: translateZ(-20px) scale(3);">
             <img src="../assets/layers/rocks_1.png" class="background" style="transform: translateZ(-15px) scale(2.5);">
             <img src="../assets/layers/rocks_2.png" class="background">

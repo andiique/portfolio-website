@@ -107,8 +107,8 @@ h2 {
   }
 
 .skills-container {
-    width: 80%;
-    max-width: 800px;
+    width: 32vw;
+    max-width: 32vw;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
