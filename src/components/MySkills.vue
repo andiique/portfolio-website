@@ -341,9 +341,14 @@ h2 {
   border-radius: 50%;
   background-color: #fff;
   width: 12vw;
-  height: 12vh;
+  height: 12vw;
   overflow: hidden;
 }
+
+img {
+    width: 70%;
+    height: auto;
+  }
 
 .back-card {
     position: absolute;
