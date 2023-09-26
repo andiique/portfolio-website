@@ -2,7 +2,7 @@
 
     <article>
         <h2>My Skills</h2>
-        <p style="font-family: 'Roboto', sans-serif; font-weight: 100; color: black;">
+        <p style="font-family: 'Roboto', sans-serif; font-weight: 100; color: white;">
             The following skills are part of my toolbox. In my free time, I often find myself learning new technologies.
         </p>
     </article>
@@ -92,12 +92,12 @@ h2 {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: black;
+    color: white;
   }
   
   p {
     font-size: 20px;
-    color: white;
+    color: #01204c;
     text-align: justify;
   }
 
@@ -115,8 +115,8 @@ h2 {
     justify-content: left;
     padding: 20px;
     border-radius: 15px;
-    background-color: #333; /* Rectangle background color */
-    border: 2px solid #333; /* Border style */
+    background-color: #e3e3e3; /* Rectangle background color */
+    border: 0px solid #333; /* Border style */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
   }
 
@@ -135,7 +135,7 @@ h2 {
     position: absolute;
     width: 100px; /* Adjust the size as needed */
     height: 100px; /* Adjust the size as needed */
-    background-color: white; /* Set the background color */
+    background-color: #01204c; /* Set the background color */
     border-radius: 50%;
     opacity: 0; /* Set initial opacity to 0 */
     transform: scale(0); /* Set initial scale to 0 */
@@ -287,4 +287,78 @@ h2 {
     animation-delay: 0.2s; /* Delay the reverse animation to match the original animation */
     animation-fill-mode: both; /* Keep the final state of the reverse animation */
 }
+
+@media (min-width: 320px) {
+    
+article {
+  max-width: 80vw; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the article horizontally */
+  padding: 0px; /* Add padding to the article if desired */
+  text-align: left; /* Align the content within the article to the left */
+}
+
+h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    font-size: 3vw;
+    color: #01204c;
+    text-align: justify;
+  }
+
+  .skills-container {
+    width: 80vw;
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e3e3e3; /* Rectangle background color */
+    border: 0px solid #333; /* Border style */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  }
+
+  /* All about skill */
+
+  .skill {
+    position: relative;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* transition: all .3s ease-in-out; */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 10vw;
+  height: auto;
+  overflow: hidden;
+}
+
+.back-card {
+    position: absolute;
+    width: 10vw; /* Adjust the size as needed */
+    height: 10vw; /* Adjust the size as needed */
+    background-color: #01204c; /* Set the background color */
+    border-radius: 50%;
+    opacity: 0; /* Set initial opacity to 0 */
+    transform: scale(0); /* Set initial scale to 0 */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+}
+
+
+}
+
+
 </style>

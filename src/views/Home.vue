@@ -11,23 +11,20 @@
             <img src="../assets/layers/clouds_4.png" class="background" style="transform: translateZ(5px) scale(0.5);">
             <div style="padding-bottom: 10%;">
                 <h2 class="title" >Andrei Ardelean</h2>
-                <h5 class="subtitle">Software Engineer</h5>
+                <h5 style="color: #0b1c98; padding-bottom: 230px;" class="subtitle">Software Engineer</h5>
             </div>
         </header>
         <section>
-            <h3 style="color: #462e4a; text-align: center; font-weight: bold; margin-top: 3%;
-            font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; font-size: 40px;">About</h3>
+            <h3>About</h3>
             <AboutMeRectangle style="padding-top: 7rem;"/>
             <SkillsRectangle style="padding-top: 5%;"/>
         </section>
         <section>
-            <h4 style="color: #462e4a; text-align: center; font-weight: bold; margin-top: 5%;
-            font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; font-size: 40px;">Projects</h4>
+            <h4>Projects</h4>
             <Projects/>
         </section>
         <section>
-            <h4 style="color: #462e4a; text-align: center; font-weight: bold; margin-top: 5%;
-            font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; font-size: 40px;">Contact me</h4>
+            <h4>Contact me</h4>
             <Contact/>
         </section>
     </div>
@@ -61,6 +58,25 @@ export default {
 
 <style scoped>
 
+h3 {
+    color: white;
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 3%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 40px;
+}
+
+h4 {
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 5%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 40px;
+    /* margin-bottom: 5%; */
+}
+
 h4::before {
   content: '';
   display: block;
@@ -68,7 +84,7 @@ h4::before {
   height: 1.5px;
   margin: auto;
   margin-bottom: 5%;
-  background: rgba(117, 81, 125, 0.4);
+  background: white;
 }
 
 /* section::after {
@@ -111,7 +127,7 @@ h4::before {
 section {
     font-size: 2rem;
     padding: 2rem;
-    background-color: #438a99;
+    background-color: #4b8e9d;
     color: white;
 }
 
@@ -168,6 +184,48 @@ header {
     color: white;
     max-width: 800px;
     text-align: justify;
+}
+
+
+@media (min-width: 320px) {
+
+section {
+    font-size: 4vw;
+    padding: 2rem;
+    background-color: #4b8e9d;
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 3%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 5vw;
+}
+
+h4 {
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 5%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 5vw;
+    /* margin-bottom: 2vh; */
+}
+
+h4::before {
+  content: '';
+  display: block;
+  width: 50vw;
+  height: 1px;
+  /* margin: auto; */
+  margin-bottom: 5%;
+  background: white;
+}
+
+
 }
 
 </style>

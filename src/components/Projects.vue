@@ -140,14 +140,14 @@ img {
   font-weight: bold;
   font-size: 30px;
   line-height: 1;
-  color: rgb(70, 46, 74);
+  color: #0b1c98;
 }
 
 .subtitle {
   font-family: serif;
   font-style: italic;
   font-size: 20px;
-  color: #75517d;
+  color: white;
   font-weight: normal;
   margin-top: 1%;
 }
@@ -159,6 +159,70 @@ img {
 	
 }
 
+@media (min-width: 320px) {
+	
+.text-container {
+  position: relative;
+  width: 48vw;
+  text-align: justify;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-right: 0%;   /*Cat de strans e textul*/
+  font-size: 20px;
+ }
 
+ .text {
+	font-family: Georgia,serif;
+	font-size: 3vw;
+	margin-right: 0px;
+	
+}
+
+.text-right {
+	left: 1%;
+}
+
+ .text-left {
+  padding-left: 0%;  /* era 30% */
+  padding-right: 0%;   /*Cat de strans e textul*/
+  right: 1%;
+  text-align: right;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 1;
+  color: #0b1c98;
+}
+
+.subtitle {
+  font-family: serif;
+  font-style: italic;
+  font-size: 3.5vw;
+  color: white;
+  font-weight: normal;
+  margin-top: 1%;
+}
+
+img {
+  border-radius: 2px;
+  position: relative;
+  vertical-align: middle;
+  border: 6px solid #fff;
+  background: rgba(117,81,125,0.1);
+  margin-left: 0px;
+  box-shadow: 1px 4px 25px rgba(117,81,125,0.15);
+  max-width: 40vw; /* Ensure the image doesn't exceed its container's width */
+  height: auto;
+}
+
+/* .project-container:first-child {
+	margin-top: 100px;
+} */
+
+}
 
 </style>
