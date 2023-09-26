@@ -341,7 +341,7 @@ h2 {
   border-radius: 50%;
   background-color: #fff;
   width: 12vw;
-  height: 8vh;
+  height: 12vh;
   overflow: hidden;
 }
 

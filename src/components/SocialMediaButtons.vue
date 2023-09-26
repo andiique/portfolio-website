@@ -52,8 +52,8 @@
   
   /* Style the round buttons */
   a {
-    width: 7.5vw;
-    height: 5vh;
+    width: 8vw;
+    height: 8vh;
     background-color: #0b1c98;
     border: none;
     border-radius: 50%; /* Make the button round */
