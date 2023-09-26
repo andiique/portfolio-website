@@ -58,6 +58,123 @@ export default {
 
 <style scoped>
 
+
+@media (min-width: 320px) {
+
+.title {
+    color: #54fad4;
+    font-size: 6vw;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    line-height: 1.4;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+    
+}
+
+.subtitle {
+    color: #9f5c8b;
+    text-align: center;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+    font-size: 4vw;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+}
+
+section {
+    font-size: 4vw;
+    padding: 2rem;
+    background-color: #4b8e9d;
+    color: white;
+}
+
+h3 {
+    color: white;
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 3%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 5vw;
+}
+
+h4 {
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 5%;
+    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
+    font-size: 5vw;
+    /* margin-bottom: 2vh; */
+}
+
+h4::before {
+  content: '';
+  display: block;
+  width: 50vw;
+  height: 1px;
+  margin: auto;
+  margin-bottom: 5%;
+  background: white;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+    
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    object-position: bottom;
+}
+
+.about-container {
+    border: 0px solid #333;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: auto;
+    height: auto;
+    padding-left: 50%;
+}
+
+.about-text {
+    flex: 2;
+    font-family: karol-sans;
+    font-style: italic;
+    color: white;
+    max-width: 800px;
+    text-align: justify;
+}
+
+}
+
+@media (min-width: 1025px) {
+
 h3 {
     color: white;
     text-align: center; 
@@ -158,12 +275,6 @@ header {
     object-position: bottom;
 }
 
-
-
-
-
-
-
 .about-container {
     border: 0px solid #333;
     padding: 20px;
@@ -185,47 +296,6 @@ header {
     max-width: 800px;
     text-align: justify;
 }
-
-
-@media (min-width: 320px) {
-
-section {
-    font-size: 4vw;
-    padding: 2rem;
-    background-color: #4b8e9d;
-    color: white;
-}
-
-h3 {
-    color: white;
-    text-align: center; 
-    font-weight: bold; 
-    margin-top: 3%;
-    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
-    font-size: 5vw;
-}
-
-h4 {
-    color: white; 
-    text-align: center; 
-    font-weight: bold; 
-    margin-top: 5%;
-    font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
-    font-size: 5vw;
-    /* margin-bottom: 2vh; */
-}
-
-h4::before {
-  content: '';
-  display: block;
-  width: 50vw;
-  height: 1px;
-  /* margin: auto; */
-  margin-bottom: 5%;
-  background: white;
-}
-
-
 }
 
 </style>

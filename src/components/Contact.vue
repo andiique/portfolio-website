@@ -1,5 +1,5 @@
 <template>
-	<div class="contact-container" style="margin-top: 3%;">
+	<div class="contact-container">
 
         <p class="contact-text" style="color: white; margin-bottom: 0;">You can drop me a line at</p>
         <a style="margin-top: -1rem;" class="email" 
@@ -96,7 +96,7 @@ strong:hover {
 .contact-container {
 	text-align: center;
 	margin-bottom: 1vh;
-	/* margin-top: 5vh; */
+  margin-top: 7vh;
 }
 
 }

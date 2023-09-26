@@ -317,7 +317,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    padding: 20px;
+    padding: 4vw 5vw;
     border-radius: 15px;
     background-color: #e3e3e3; /* Rectangle background color */
     border: 0px solid #333; /* Border style */
@@ -329,8 +329,8 @@ h2 {
   .skill {
     position: relative;
     color: white;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 1vw;
+    margin-left: 1vw;
     /* transition: all .3s ease-in-out; */
 }
 
@@ -340,15 +340,15 @@ h2 {
   align-items: center;
   border-radius: 50%;
   background-color: #fff;
-  width: 10vw;
-  height: auto;
+  width: 12vw;
+  height: 8vh;
   overflow: hidden;
 }
 
 .back-card {
     position: absolute;
-    width: 10vw; /* Adjust the size as needed */
-    height: 10vw; /* Adjust the size as needed */
+    width: 12vw; /* Adjust the size as needed */
+    height: 12vw; /* Adjust the size as needed */
     background-color: #01204c; /* Set the background color */
     border-radius: 50%;
     opacity: 0; /* Set initial opacity to 0 */

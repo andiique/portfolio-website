@@ -1,5 +1,6 @@
 <template>
-	<div class="project-container" style="margin-top: 5%;">
+  <div class="pushdown">
+    <div class="project-container" style="margin-top: 5%;">
 		<img class="img-left" src="../assets/brain.jpg">
 		<div class="text-container text-right">
 			<h3 class="title">
@@ -55,6 +56,8 @@
 		</div>
 		<img class="img-right" src="../assets/rpg.png">
 	</div>
+  </div>
+	
 	
 </template>
 
@@ -161,6 +164,10 @@ img {
 
 @media (min-width: 320px) {
 	
+.pushdown {
+  margin-top: 8vh;
+}
+
 .text-container {
   position: relative;
   width: 48vw;
