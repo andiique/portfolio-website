@@ -126,6 +126,7 @@ img {
 
 .text-right {
 	left: 1%;
+  text-align: left;
 }
 
  .text-left {
@@ -187,6 +188,7 @@ img {
 
 .text-right {
 	left: 1%;
+  text-align: left;
 }
 
  .text-left {
@@ -229,6 +231,10 @@ img {
 /* .project-container:first-child {
 	margin-top: 100px;
 } */
+
+.project-container:last-child {
+  margin-bottom: -10vw;
+}
 
 }
 

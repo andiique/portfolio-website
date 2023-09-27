@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="about-section">
         <div class="about-me-container">
             <h2 style="color: #0b1c98;">Who is Andrei?</h2>
             <p style="margin-top: 25px;">{{ aboutTextV2 }}</p>
-            <p>
+            <p class="text-down">
               Currently working at
               <a style="color: #0b1c98;" href="https://www.layakk.com/">Layakk</a>.
               Based in Valencia, Spain.
@@ -37,13 +37,20 @@ export default {
 <style scoped>
 
 @media (min-width: 320px) {
+
+  .about-section {
+    padding-left: 10vw;
+    margin-top: -10vw;
+    margin-bottom: -15vw;
+  }
+
   .about-me-container {
     /* width: 70vw; */
     max-width: 70vw;
     /* height: 50vh; */
     margin: 0 auto;
-    padding: 0px;
-    padding-top: 1vh;
+    /* padding: 0px; */
+    padding-top: 2vw;
     border-radius: 5px;
     background-color: #d9d9d9; /* Rectangle background color */
     border: 0px solid #333; /* Border style */
@@ -61,6 +68,10 @@ export default {
     color: #01204c;
   }
 
+  .text-down {
+    padding-bottom: 2vw;
+  }
+
   h2 {
     font-size: 4vw;
     font-weight: bold;
@@ -70,7 +81,7 @@ export default {
 
   .profile-container {
     width: 30vw; /* Adjust the width to your desired size */
-    /* height: 20vh; Set the same height as the width for a square shape */
+    height: 30vw;  /* Set the same height as the width for a square shape */
     margin: 0 auto;
     background-color: #fff; /* Container background color */
     border: 0px solid #333; /* Border style */
@@ -78,7 +89,7 @@ export default {
     text-align: center;
     display: flex;
     transform-origin: 0, 0;
-    transform: translate(-110%, -240%);
+    transform: translate(-110%, -290%);
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
@@ -91,10 +102,6 @@ export default {
     object-position: top;
     border-radius: 12px; /* Round the corners for a circular effect */
   }
-}
-
-@media (min-width: 320px) {
-
 }
 
 @media (min-width: 480px) {

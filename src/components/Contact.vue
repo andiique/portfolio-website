@@ -95,8 +95,8 @@ strong:hover {
 
 .contact-container {
 	text-align: center;
-	margin-bottom: 1vh;
-  margin-top: 7vh;
+	margin-bottom: 2vw;
+  margin-top: 10vw;
 }
 
 }

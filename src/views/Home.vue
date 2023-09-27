@@ -106,7 +106,7 @@ h4 {
     color: white; 
     text-align: center; 
     font-weight: bold; 
-    margin-top: 5%;
+
     font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif; 
     font-size: 5vw;
     /* margin-bottom: 2vh; */
@@ -118,7 +118,7 @@ h4::before {
   width: 50vw;
   height: 1px;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 10vw;
   background: white;
 }
 

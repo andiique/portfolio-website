@@ -3,7 +3,7 @@
       <a href="https://www.linkedin.com/in/andrei-ardelean13/" target="_blank">
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href="https://ro.linkedin.com/in/buchila-sebastian" target="_blank">
+      <a href="https://www.facebook.com/ardelean.andrei13/" target="_blank">
         <i class="fab fa-facebook"></i>
       </a>
       <a href="https://www.instagram.com/andiiquetheslayer/" target="_blank">
