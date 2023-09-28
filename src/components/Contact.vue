@@ -101,4 +101,47 @@ strong:hover {
 
 }
 
+@media (min-width: 1280px) { 
+
+.contact-container {
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+.contact-text {
+  color: #1b2947;
+  font-family: Georgia,serif;
+  font-size: 20px;
+
+}
+
+.email {
+  font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: rgb(70, 46, 74);
+  background: linear-gradient(180deg,transparent 94%,#0b1c98 94%,#0b1c98 100%);
+  background-repeat: repeat-x;
+  background-position: 0 10px;
+  transition: background-position 80ms ease-in;
+}
+
+.email:hover {
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-repeat: repeat-x;
+}
+
+.email strong {
+	color: #0b1c98;
+	transition: color 0.3s ease;
+	font-weight: bold;
+}
+
+.email:hover strong {
+	color: rgb(70, 46, 74);
+}
+  
+}
+
 </style>

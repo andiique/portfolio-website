@@ -13,6 +13,8 @@
 
               <h2 style="color: #0b1c98;">Who is Andrei?</h2>
               <p>{{ aboutTextV2 }}</p>
+
+              <p>{{secondAboutText}}</p>
               <p>
               Currently working at
                 <a style="color: #0b1c98;" href="https://www.layakk.com/">Layakk</a>.
@@ -49,11 +51,11 @@ export default {
 @media (min-width: 320px) {
 
   .about-section {
-    /* padding-left: 10vw; */
-    margin-top: -10vw;
+    /* margin-top: -10vw; */
     margin-bottom: 20vw;
-    display: flex;
+	display: flex;
     justify-content: center;
+
   }
 
   article {
@@ -61,9 +63,7 @@ export default {
     max-width: 70vw;
     /* height: 50vh; */
     text-align: center;
-    /* padding: 0px; */
-    padding: 25vw 3vw 0vw;       /* ! AICI AM RAMAS !  */
-    /* padding-top: 0vw; */
+    padding: 25vw 3vw 0vw;
 
     display: flex;
     transform: none;
@@ -85,10 +85,6 @@ export default {
     color: #01204c;
     
     /* font-size: 1.2rem; */
-  }
-
-  .text-down {
-    padding-bottom: 2vw;
   }
 
   h2 {
@@ -142,7 +138,100 @@ export default {
 
 @media (min-width: 1025px) {
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1280px) {
+
+.about-section {
+    display: flex;
+    justify-content: center;
+	margin-bottom: 10rem;
+  }
+
+  article {
+    max-width: 28%;
+
+	padding-top: 3rem;
+	padding-left: 5rem;
+	padding-right: 0rem;
+	padding-bottom: 1.5rem;
+
+    border-radius: 15px;
+    background-color: #d9d9d9; /* Rectangle background color */
+    
+    box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.7); /* Box shadow for depth */
+	
+
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    color: #01204c;
+    
+    /* font-size: 1.2rem; */
+  }
+
   h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-top: 0.5em; */
+    color: #01204c;
+	text-align: left;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .profile-container {
+    width: 300px; /* Adjust the width to your desired size */
+    height: 300px;  /* Set the same height as the width for a square shape */
+	position: absolute;
+	border-radius: 15px;
+  	transform: translate(-420px,-50px);
+    box-shadow: 0rem 0rem 1.7rem rgba(0, 0, 0, 0.7); /* Box shadow for depth */
+  }
+
+  img {
+    width: 100%; /* Set the width to 100% to fill the square container */
+    height: 100%; /* Set the height to 100% to fill the square container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    object-position: top;
+    border-radius: 15px;
+  }
+
+
+}
+
+</style>
+
+
+
+  <!--  From @media 1025px
+    
+    h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -192,11 +281,4 @@ export default {
     object-fit: cover; /* Maintain aspect ratio and cover the entire container */
     object-position: top;
     border-radius: 12px; /* Round the corners for a circular effect */
-  }
-}
-
-@media (min-width: 1280px) {
-
-}
-
-</style>
+  } -->

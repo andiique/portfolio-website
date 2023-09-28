@@ -179,7 +179,7 @@ header {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1280px) {
 
 h3 {
     color: white;

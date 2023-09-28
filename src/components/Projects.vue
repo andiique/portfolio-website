@@ -238,4 +238,72 @@ img {
 
 }
 
+@media (min-width: 1280px) {
+
+.text-container {
+  position: relative;
+  width: 48vw;
+  text-align: justify;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-right: 30%;   /*Cat de strans e textul*/
+  font-size: 20px;
+}
+
+.text-right {
+	left: 1%;
+  text-align: left;
+}
+
+ .text-left {
+  padding-left: 30%;
+  padding-right: 0%;   /*Cat de strans e textul*/
+  right: 1%;
+  text-align: right;
+}
+
+.title {
+  margin: 0;
+  font-family: 'Avenir Next','Segoe ui',Ubuntu,sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+  color: #0b1c98;
+}
+
+.subtitle {
+  font-family: serif;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  font-weight: normal;
+  margin-top: 1%;
+}
+
+.text {
+	font-family: Georgia,serif;
+	font-size: 20px;
+	margin-right: 50px;
+	
+}
+
+img {
+  border-radius: 2px;
+  position: relative;
+  vertical-align: middle;
+  border: 6px solid #fff;
+  background: rgba(117,81,125,0.1);
+  margin-left: 0px;
+  box-shadow: 1px 4px 25px rgba(117,81,125,0.15);
+  max-width: 20rem; /* Ensure the image doesn't exceed its container's width */
+  height: auto;
+}
+
+.project-container:last-child {
+  margin-bottom: 0;
+}
+
+}
+
+
 </style>
