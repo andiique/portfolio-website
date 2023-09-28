@@ -1,20 +1,30 @@
 <template>
     <div class="about-section">
-        <div class="about-me-container">
-            <h2 style="color: #0b1c98;">Who is Andrei?</h2>
-            <p style="margin-top: 25px;">{{ aboutTextV2 }}</p>
-            <p class="text-down">
-              Currently working at
-              <a style="color: #0b1c98;" href="https://www.layakk.com/">Layakk</a>.
-              Based in Valencia, Spain.
-             </p>
-            
-            <!-- <p>{{ secondAboutText }}</p> -->
-        </div>
-
         <div class="profile-container">
             <img src="../assets/portfolio_pic.jpg" alt="Your Name" />
         </div>
+
+        <!-- <div class="about-me-container">
+        </div> -->
+
+        <article>
+          <div style="display: block;">
+            <div style="display: flex; gap: 4px; flex-direction: column;">
+
+              <h2 style="color: #0b1c98;">Who is Andrei?</h2>
+              <p>{{ aboutTextV2 }}</p>
+              <p>
+              Currently working at
+                <a style="color: #0b1c98;" href="https://www.layakk.com/">Layakk</a>.
+              Based in Valencia, Spain.
+              </p>
+
+            </div>
+
+          </div>
+
+        </article>
+
     </div>
 
   </template>
@@ -39,33 +49,42 @@ export default {
 @media (min-width: 320px) {
 
   .about-section {
-    padding-left: 10vw;
+    /* padding-left: 10vw; */
     margin-top: -10vw;
-    margin-bottom: -15vw;
+    margin-bottom: 20vw;
+    display: flex;
+    justify-content: center;
   }
 
-  .about-me-container {
+  article {
     /* width: 70vw; */
     max-width: 70vw;
     /* height: 50vh; */
-    margin: 0 auto;
-    /* padding: 0px; */
-    padding-top: 2vw;
-    border-radius: 5px;
-    background-color: #d9d9d9; /* Rectangle background color */
-    border: 0px solid #333; /* Border style */
     text-align: center;
+    /* padding: 0px; */
+    padding: 25vw 3vw 0vw;       /* ! AICI AM RAMAS !  */
+    /* padding-top: 0vw; */
+
+    display: flex;
+    transform: none;
+
+    border-radius: 3vw;
+    background-color: #d9d9d9; /* Rectangle background color */
+    
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
 
   }
 
   p {
-    font-size: 3vw;
-    color: white;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 1.2;
     text-align: justify;
     padding-left: 3vw;
     padding-right: 3vw;
     color: #01204c;
+    
+    /* font-size: 1.2rem; */
   }
 
   .text-down {
@@ -75,23 +94,26 @@ export default {
   h2 {
     font-size: 4vw;
     font-weight: bold;
-    margin-top: 0.5em;
+    /* margin-top: 0.5em; */
     color: #01204c;
   }
 
   .profile-container {
-    width: 30vw; /* Adjust the width to your desired size */
-    height: 30vw;  /* Set the same height as the width for a square shape */
+    width: 35vw; /* Adjust the width to your desired size */
+    height: 35vw;  /* Set the same height as the width for a square shape */
     margin: 0 auto;
-    background-color: #fff; /* Container background color */
+    background-color: transparent; /* Container background color */
     border: 0px solid #333; /* Border style */
-    border-radius: 15px;
+    border-radius: 50%;
+    z-index: 300;
     text-align: center;
     display: flex;
-    transform-origin: 0, 0;
-    transform: translate(-110%, -290%);
-    align-items: center;
-    justify-content: center;
+    /* transform-origin: 0, 0;
+    transform: translate(-110%, -290%); */
+    transform: translateY(-50%);
+    position: absolute;
+    /* align-items: center;
+    justify-content: center; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
   }
 
@@ -100,7 +122,9 @@ export default {
     height: 100%; /* Set the height to 100% to fill the square container */
     object-fit: cover; /* Maintain aspect ratio and cover the entire container */
     object-position: top;
-    border-radius: 12px; /* Round the corners for a circular effect */
+    position: absolute;
+    display: unset;
+    border-radius: 50%; /* Round the corners for a circular effect */
   }
 }
 

@@ -8,7 +8,7 @@
 		</a>
         <p class="contact-text" style="color: white; margin-top: 1rem;">You can also find me on</p>
 
-        <SocialMedia style="text-align: center;"/>
+        <SocialMedia/>
     </div>
 </template>
 

@@ -27,6 +27,10 @@
             <h4>Contact me</h4>
             <Contact/>
         </section>
+        <section>
+            <Credits/>
+        </section>
+
     </div>
 </template>
 
@@ -37,6 +41,7 @@ import AboutMeRectangle from "../components/AboutMe.vue"
 import SkillsRectangle from "../components/MySkills.vue"
 import Projects from "../components/Projects.vue"
 import Contact from "../components/Contact.vue"
+import Credits from "../components/Credit.vue"
 
 export default {
     name: 'Home',
@@ -52,6 +57,7 @@ export default {
         SkillsRectangle,
         Projects,
         Contact,
+        Credits,
     }
 }
 </script>
