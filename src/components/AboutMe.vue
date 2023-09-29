@@ -14,7 +14,7 @@
               <h2 style="color: #0b1c98;">Who is Andrei?</h2>
               <p>{{ aboutTextV2 }}</p>
 
-              <p>{{secondAboutText}}</p>
+              <p class="restricted">{{secondAboutText}}</p>
               <p>
               Currently working at
                 <a style="color: #0b1c98;" href="https://www.layakk.com/">Layakk</a>.
@@ -85,6 +85,10 @@ export default {
     color: #01204c;
     
     /* font-size: 1.2rem; */
+  }
+
+    .restricted {
+	display: none;
   }
 
   h2 {
@@ -168,7 +172,7 @@ export default {
   }
 
   article {
-    max-width: 28%;
+    max-width: 650px;
 
 	padding-top: 3rem;
 	padding-left: 5rem;
@@ -193,6 +197,11 @@ export default {
     color: #01204c;
     
     /* font-size: 1.2rem; */
+  }
+
+  .restricted {
+	display: block;
+	visibility: visible;
   }
 
   h2 {
