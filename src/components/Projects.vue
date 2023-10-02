@@ -33,7 +33,7 @@
     </div>
 
     <div class="project-container" style="margin-top: 2%">
-      <img class="img-left" src="../assets/aco.jpeg" />
+      <img class="img-left" src="../assets/aco(1).png" />
       <div class="text-container text-right">
         <h3 class="title">
           Ant Colony Optimization

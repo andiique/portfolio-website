@@ -1,6 +1,6 @@
 <template>
 	<p>
-		v0.1.9 - alpha | Handcrafted in Valencia, ES. | © 2023 by Andrei Ardelean. All rights reserved.
+		v0.2.1 - alpha | Handcrafted in Valencia, ES. | © 2023 by Andrei Ardelean. All rights reserved.
 	</p>
 </template>
 
